@@ -82,6 +82,8 @@ FRUITS = [
 FRUITS_BY_ID = {f['id']: f for f in FRUITS}
 
 # === TEMPLATES ===
+# ...existing code...
+
 BASE_HTML = textwrap.dedent('''
 <!doctype html>
 <html lang="en">
@@ -137,12 +139,17 @@ BASE_HTML = textwrap.dedent('''
       {{ content|safe }}
     </div>
 
+    <!-- AI Agent Chatbot Widget -->
+    <elevenlabs-convai agent-id="agent_3201k49xk37qe2nae4w8nhp2chm1"></elevenlabs-convai>
+    <script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
+
     <footer class="text-center mt-5 mb-4 text-muted">
       &copy; {{ year }} Praise Akinwole — Nutritional tips & fruit knowledge.
     </footer>
   </body>
 </html>
 ''')
+#
 
 
 HOME_HTML = textwrap.dedent('''
@@ -185,6 +192,14 @@ HOME_HTML = textwrap.dedent('''
     </div>
   </div>
 </div>
+<!-- AI Agent Chatbot Widget -->
+    <elevenlabs-convai agent-id="agent_3201k49xk37qe2nae4w8nhp2chm1"></elevenlabs-convai>
+    <script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
+
+    <footer class="text-center mt-5 mb-4 text-muted">
+    </footer>
+  </body>
+</html>                            
 ''')
 
 FRUIT_HTML = textwrap.dedent('''
@@ -271,6 +286,7 @@ ABOUT_HTML = textwrap.dedent('''
     </div>
   </div>
 </div>
+<a href = elevenlabs-convai agent-id="agent_3201k49xk37qe2nae4w8nhp2chm1"></elevenlabs-convai><script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
 ''')
 
 # === ROUTES ===
@@ -313,5 +329,3 @@ def not_found(e):
 
 if __name__ == '__main__':
     app.run(debug=True)
-
-<elevenlabs-convai agent-id="agent_3201k49xk37qe2nae4w8nhp2chm1"></elevenlabs-convai><script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
