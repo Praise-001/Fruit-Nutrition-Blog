@@ -351,22 +351,15 @@ HOME_HTML = textwrap.dedent('''
       {% endfor %}
     </div>
   </div>
-  <div class="col-md-4">
+  <!--
+                            <div class="col-md-4">
     <div class="card mb-3 light-theme">
       <div class="card-body">
         <h5 class="card-title">About Praise</h5>
         <p class="card-text">Praise Akinwole is a nutrition-minded blogger who highlights fruit-centered tips, recipes, and the science behind nutritious choices. <a href="/about">Read more</a>.</p>
       </div>
+                            -->
     </div>
-    <div class="card light-theme">
-      <div class="card-body">
-        <h6 class="card-title">Quick filters</h6>
-        <p class="card-text">Filter ideas (not functional filters in this demo). You can later add real filtering by season, product, or region.</p>
-        <div class="mb-2">
-          <span class="tag light-theme">High Vitamin C</span>
-          <span class="tag light-theme">Tropical</span>
-          <span class="tag light-theme">Heart-healthy</span>
-        </div>
       </div>
     </div>
   </div>
