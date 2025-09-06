@@ -461,9 +461,12 @@ ABOUT_HTML = textwrap.dedent('''
       <div class="card-body">
         <h6><b>Contact</b></h6>
         <p class="mb-0">Email: <a href="mailto:praiseakinwole@gmail.com">praiseakinwole@gmail.com</a></p>
-        <p>Twitter: <a href="https://x.com/PraiseA25363" target="_blank">@PraiseA25363</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/praiseeakinwole/" target="_blank">linkedin.com/in/praiseeakinwole/</a></p>
-        </div>
+        <p>
+          Twitter: <a href="https://x.com/PraiseA25363" target="_blank">@PraiseA25363</a>
+          &nbsp;
+          LinkedIn: <a href="https://www.linkedin.com/in/praiseeakinwole/" target="_blank">linkedin.com/in/praiseeakinwole/</a>
+        </p>
+      </div>
     </div>
   </div>
 </div>
