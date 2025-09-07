@@ -336,7 +336,9 @@ BASE_HTML = textwrap.dedent('''
       {{ content|safe }}
     </div>
 
-    AI Agent Chatbot Widget
+    <!--
+                            AI Agent Chatbot Widget 
+                            -->
     <elevenlabs-convai agent-id="agent_3201k49xk37qe2nae4w8nhp2chm1"></elevenlabs-convai>
     <script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
 
