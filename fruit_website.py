@@ -203,6 +203,22 @@ FRUITS = [
         'pests': ['Fruit flies', 'Aphids', 'Scale insects'],
         'medicinal_uses': 'Vitamin C supports immunity; leaves traditionally used to treat diarrhea.',
         'other_uses': 'Leaves used for herbal teas; wood used for fuel and tool handles.'
+    },
+    {
+        'id': 'cherry',
+        'name': 'Cherry',
+        'botanical_name': 'Prunus avium',
+        'family': 'Rosaceae',
+        'genus': 'Prunus',
+        'image_url': 'https://assets.idahopreferred.com/uploads/2023/08/23130201/Cherries-scaled-1.jpg',
+        'description': 'Cherries are small, round fruits that can be sweet or sour. They are rich in antioxidants, vitamins, and minerals.',
+        'top_country': 'Turkey (largest producer)',
+        'days_to_harvest': '60 - 90 days after flowering',
+        'availability': 'Late spring to early summer',
+        'products': ['Fresh fruit', 'Juice', 'Jam', 'Dried cherries'],
+        'pests': ['Cherry fruit fly', 'Aphids', 'Brown rot'],
+        'medicinal_uses': 'Rich in antioxidants; may help reduce inflammation and improve sleep quality.',
+        'other_uses': 'Wood used for furniture and musical instruments; ornamental trees in landscaping.'   
     }
   
 ]
@@ -320,7 +336,7 @@ BASE_HTML = textwrap.dedent('''
       {{ content|safe }}
     </div>
 
-    <!-- AI Agent Chatbot Widget -->
+    AI Agent Chatbot Widget
     <elevenlabs-convai agent-id="agent_3201k49xk37qe2nae4w8nhp2chm1"></elevenlabs-convai>
     <script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
 
